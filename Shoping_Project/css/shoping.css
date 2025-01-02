@@ -1,0 +1,169 @@
+
+ .hero {
+     background: url('hero-image.jpg') center/cover no-repeat;
+     color: white;
+     padding: 80px 20px;
+     text-align: center;
+ }
+ .collapse{
+  margin-right: 90px;
+ }
+ .searcing_button{
+ margin-left: 40px;
+ }
+ .form-control {
+    height: 40px;
+    width: 100px;
+    background-color: antiquewhite;
+ }
+ .carousel-control-prev-icon, 
+        .carousel-control-next-icon {
+          width: 50px;
+          height: 50px;
+          background-size: 50px 50px; /* Adjust the size of the icon */
+        }
+      
+        /* Change icon color to red when clicked */
+        .carousel-control-prev:active .carousel-control-prev-icon,
+        .carousel-control-next:active .carousel-control-next-icon {
+          background-color: rgb(187, 255, 0); /* Change icon color to red */
+        }
+      
+        /* Optional: Make the icons a lighter color by default */
+        .carousel-control-prev-icon, 
+        .carousel-control-next-icon {
+          background-color: rgba(252, 34, 34, 0.5); /* Darker color by default */
+        }
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100vh; /* Full viewport height */
+    background-color: black;
+  }
+  .banner_text{
+  color: rgb(144, 97, 168);
+  font-size: 14px;
+  }
+  .banner_text_side{
+    margin-top: 300px;
+    margin-left: 150px;
+    background-color: rgb(207, 205, 199);
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  .main_txt{
+    text-align: center;
+  }
+  .main_txt1{
+    font-size: large;
+    font-weight: bold;
+  }
+  .img-fluid{
+    width: 100px;
+    padding: 5px;
+    height: 100px;
+
+  }
+.text-container1{
+    margin: 0;
+    padding: 100px;
+    height: 100%;
+    background-image: url("../Images/2.png");
+    background-size: cover; /* This makes the image cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+.text-container2{
+    margin: 0;
+    padding: 100px;
+    height: 100%;
+    background-image: url("../Images/3.png");
+    background-size: cover; /* This makes the image cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+.text-container3{
+    margin: 0;
+    padding: 100px;
+    height: 100%;
+    background-image: url("../Images/4.png");
+    background-size: cover; /* This makes the image cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+.card{
+    
+    height: 140px;
+    padding: 10px;
+    background-color: rgb(211, 207, 203);
+  
+}
+#exampleFormControlInput1{
+    width: 100%;
+    padding: 5px;
+}
+
+#exampleFormControlTextarea1{
+    width: 90%;
+    height: 60%;
+}
+
+.comment-btn-parent{
+    border: 6px solid rgb(245, 193, 193);
+    border-radius: 10px;
+    background-color: rgb(241, 84, 84);
+    width: 90%;
+    text-decoration: none;
+
+}
+.comment-btn{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(172, 190, 206);
+}
+ .program-section, .contact-form {
+     padding: 60px 20px;
+ }
+ .question-part{
+    border: 2px solid rgb(229, 248, 192);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+ }
+ .question-logo{
+   padding-left: 56px;
+   position: relative;
+   margin-top: 6px;
+   margin-bottom: 1px;
+  
+ 
+ }
+ .question-logo-img{
+   
+    width: 100%;
+ }
+ .social-media{
+    background-color: #888484;
+    border: 5px solid rgb(112, 136, 209);
+    border-radius: 25px;
+    box-shadow: 50px 40px 30px rgba(29, 28, 28, 0.6);
+    margin-bottom: 4px;
+ }
+ .product-card img {
+     height: 200px;
+     object-fit: cover;
+ }
+ .footer {
+     background: #333;
+     color: white;
+     padding: 20px 20px;
+ }
+ .footer a {
+     color: #ddd;
+     text-decoration: none;
+ }
+ .soiclicon{
+    width: 14%;
+    height: 10%;
+ }
